@@ -1,0 +1,49 @@
+﻿@model ExchangeItem
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="card-title mb-4">Currency Converter</h1>
+
+
+    <div class="card">
+        <div class="card-body">
+            <form asp-controller="Home" asp-action="Index" enctype="multipart/form-data" method="post">
+                <dl class="row card-text bg-light">
+
+                    <dt class="col-sm-2">
+                        <span>From : </span>
+                    </dt>
+                    <dd class="col-sm-9">
+                     
+                        @Html.DropDownListFor(m => m.From, new SelectList((System.Collections.IEnumerable)TempData["Countries"], "Name", "Name"), new { @class = "form-control col-sm-5" })
+
+                    </dd>
+                    <dt class="col-sm-2">
+                        <span>To : </span>
+                    </dt>
+                    <dd class="col-sm-9">
+                        @Html.DropDownListFor(m => m.To, new SelectList((System.Collections.IEnumerable)TempData["Countries"], "Name", "Name"), new { @class = "form-control col-sm-5" })
+
+                    </dd>
+                    <dt class="col-sm-2">
+                        Amount:
+                    </dt>
+                    <dd class="col-sm-9">
+                        <input class="form-control col-sm-5" asp-for="Amount" type="text" value="1000" />
+                    </dd>
+                    <dt class="col-sm-2">
+                        Result:
+                    </dt>
+                    <dd class="col-sm-9">
+                        <input class="form-control col-sm-5" asp-for="Result" type="text" readonly="readonly" value="@Model.Result "  />
+                    </dd>
+                </dl>
+                <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                    <input class="btn btn-danger me-md-2" type="submit" />
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

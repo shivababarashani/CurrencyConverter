@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "jTazL7pSfNOqmTFSBq1uEba6XLLy7HJbYDlfbvF0mRoYSC6Uh8R8bIlMWFxRSnvDX6Epj3+IpuE0fcPpp/NLkg==",
+  "success": true,
+  "projectFilePath": "D:\\New_Learning\\projects\\CurrencyConverter\\CurrencyConverterService\\CurrencyConverter.Service.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\SAMIRA\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\6.0.0\\microsoft.extensions.configuration.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\SAMIRA\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\SAMIRA\\.nuget\\packages\\microsoft.extensions.fileproviders.abstractions\\6.0.0\\microsoft.extensions.fileproviders.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\SAMIRA\\.nuget\\packages\\microsoft.extensions.hosting.abstractions\\6.0.0\\microsoft.extensions.hosting.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\SAMIRA\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+    "C:\\Users\\SAMIRA\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
